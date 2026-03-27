@@ -44,8 +44,8 @@ const Navbar = () => {
           </button>
         </div>
         <div className="flex items-center px-4 mr-8 text-white">
-          <i className="text-2xl mr-2 fa-solid fa-circle-user"></i>
-          <span>Account</span>
+          <i className="text-3xl mr-2 fa-solid fa-circle-user"></i>
+          <span className="text-sm">Account</span>
           <button>
             <i className="ml-2 mt-1 fa-solid fa-caret-down"></i>
           </button>
