@@ -1,6 +1,6 @@
 const Destinations = () => {
   return (
-    <div>
+    <div className="w-screen">
       <div className="flex flex-col items-center gap-2 mt-8 mb-12">
         <div className="text-2xl text-[#4f4f4f] font-medium">
           Suggested Destinations in Nigeria
@@ -10,8 +10,8 @@ const Destinations = () => {
         </div>
         <div className="border-t-[3px] border-[#00aeff] my-[15px] mx-auto w-16"></div>
       </div>
-      <div className="flex gap-4 pr-[30px] pl-[30px]">
-        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-md p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
+      <div className="flex items-center justify-center gap-4 pr-[30px] pl-[30px]">
+        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-sm p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
           <div className="text-[#00aeff] text-lg font-medium group-hover:text-white">
             Hotels in
           </div>
@@ -22,7 +22,7 @@ const Destinations = () => {
             3,642 hotels
           </div>
         </div>
-        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-md p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
+        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-sm p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
           <div className="text-[#00aeff] text-lg font-medium group-hover:text-white">
             Hotels in
           </div>
@@ -33,7 +33,7 @@ const Destinations = () => {
             1,290 hotels
           </div>
         </div>
-        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-md p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
+        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-sm p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
           <div className="text-[#00aeff] text-lg font-medium group-hover:text-white">
             Hotels in
           </div>
@@ -44,7 +44,7 @@ const Destinations = () => {
             449 hotels
           </div>
         </div>
-        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-md p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
+        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-sm p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
           <div className="text-[#00aeff] text-lg font-medium group-hover:text-white">
             Hotels in
           </div>
@@ -55,7 +55,7 @@ const Destinations = () => {
             331 hotels
           </div>
         </div>
-        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-md p-4 h-25 w-40 hover:bg-[#00aeff]  transition duration-700 ease-in-out cursor-pointer">
+        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-sm p-4 h-25 w-40 hover:bg-[#00aeff]  transition duration-700 ease-in-out cursor-pointer">
           <div className="text-[#00aeff] text-lg font-medium group-hover:text-white">
             Hotels in
           </div>
@@ -66,7 +66,7 @@ const Destinations = () => {
             223 hotels
           </div>
         </div>
-        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-md p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
+        <div className="group flex flex-col items-center justify-center border-2 border-[#00aeff] rounded-sm p-4 h-25 w-40 hover:bg-[#00aeff] transition duration-700 ease-in-out cursor-pointer">
           <div className="text-[#00aeff] text-lg font-medium group-hover:text-white">
             Hotels in
           </div>
