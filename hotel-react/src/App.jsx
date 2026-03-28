@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import Destinations from "./Destinations";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
      <div className="flex flex-col items-center">
       <Navbar />
       <Hero />
+      <Destinations />
      </div>
     </>
   )
