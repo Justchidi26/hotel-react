@@ -29,7 +29,7 @@ const Navbar = () => {
 
               <div className="flex items-center text-white">
                 <span className="mr-2 text-[15px]">+234 814 880 8800</span>
-                <button>
+                <button className="cursor-pointer">
                   <i className="mt-1 text-white fa-solid fa-caret-down"></i>
                 </button>
               </div>
@@ -39,14 +39,14 @@ const Navbar = () => {
         <div className="border-r border-white flex items-center px-4 text-white gap-2">
           <img src={nigeriaflag} alt="Nigerian flag" className="h-8 w-8" />
           <i class="text-white fa-solid fa-naira-sign"></i>
-          <button>
+          <button className="cursor-pointer">
             <i className="ml-2 mt-1 fa-solid fa-caret-down"></i>
           </button>
         </div>
         <div className="flex items-center px-4 mr-8 text-white">
           <i className="text-3xl mr-2 fa-solid fa-circle-user"></i>
           <span className="text-sm">Account</span>
-          <button>
+          <button className="cursor-pointer">
             <i className="ml-2 mt-1 fa-solid fa-caret-down"></i>
           </button>
         </div>
