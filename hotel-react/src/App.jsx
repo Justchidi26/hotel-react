@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Destinations from "./Destinations";
+import Hotel  from "./Hotel";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <div className="mt-20">
           <Destinations />
         </div>
+        
+        <Hotel />
       </div>
     </>
   );
