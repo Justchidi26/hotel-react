@@ -15,7 +15,7 @@ const Deals = () => {
             className="w-full outline-none ml-5"
           />
         </div>
-        <button className="bg-[#00aeff] text-white cursor-pointer w-30 p-2 rounded-md hover:bg-[#0099e6] transition duration-700 ease-in-out">
+        <button className="bg-[#00aeff] text-white cursor-pointer w-30 p-2 rounded-sm hover:bg-[#0099e6] transition duration-700 ease-in-out">
           Subscribe
         </button>
       </div>

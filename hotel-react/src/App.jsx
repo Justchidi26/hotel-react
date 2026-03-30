@@ -5,6 +5,7 @@ import Hotel  from "./Hotel";
 import Cities from "./Cities";
 import States from "./States";
 import Deals from "./Deals";
+import Features from "./Features";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Cities />
         <States />
         <Deals />
+        <Features />
       </div>
     </>
   );
