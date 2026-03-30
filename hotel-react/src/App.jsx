@@ -8,6 +8,7 @@ import Deals from "./Deals";
 import Features from "./Features";
 import HotelApp from "./HotelApp";
 import EmailForm from "./EmailForm";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Features />
         <HotelApp />
         <EmailForm />
+        <Footer />
       </div>
     </>
   );

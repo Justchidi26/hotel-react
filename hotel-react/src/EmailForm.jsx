@@ -17,7 +17,7 @@ const EmailForm = () => {
           <input
             type="text"
             placeholder="Enter your email address"
-            className="w-full outline-none"
+            className="w-full outline-none p-2"
           />
         </div>
         <button className="bg-[#00aeff] text-white cursor-pointer w-40 h-10 p-2 rounded-tr-sm  rounded-br-sm hover:bg-[#0099e6] transition duration-700 ease-in-out">
