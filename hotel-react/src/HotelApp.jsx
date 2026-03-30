@@ -1,7 +1,7 @@
 import appimage from "./assets/app-image.png";
 const HotelApp = () => {
   return (
-    <div className="mt-20 bg-[#cfeaf2] flex w-screen justify-center gap-12">
+    <div className="mt-20 bg-sky-50 flex w-screen justify-center gap-12">
       <div
         className="h-50 w-60 bg-cover bg-center mt-20"
         style={{ backgroundImage: `url(${appimage})` }}

@@ -7,6 +7,7 @@ import States from "./States";
 import Deals from "./Deals";
 import Features from "./Features";
 import HotelApp from "./HotelApp";
+import EmailForm from "./EmailForm";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Deals />
         <Features />
         <HotelApp />
+        <EmailForm />
       </div>
     </>
   );
