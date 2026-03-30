@@ -3,6 +3,8 @@ import Hero from "./Hero";
 import Destinations from "./Destinations";
 import Hotel  from "./Hotel";
 import Cities from "./Cities";
+import States from "./States";
+import Deals from "./Deals";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         </div>
         <Hotel />
         <Cities />
+        <States />
+        <Deals />
       </div>
     </>
   );
