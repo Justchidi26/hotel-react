@@ -17,7 +17,7 @@ const Features = () => {
       <div className="text-lg text-[#4f4f4f] mb-6">
         Find out why over 13,137 hotels managers trust Hotels.ng
       </div>
-      <button className="bg-[#00aeff] text-white cursor-pointer w-50 p-2 rounded-sm hover:bg-[#0099e6] transition duration-700 ease-in-out">
+      <button className="bg-[#00aeff] text-white cursor-pointer w-50 p-2 rounded-sm hover:bg-[#0099e6] transition duration-700 ease-in-out mb-5">
         Add your Hotel
       </button>
     </div>
