@@ -57,14 +57,13 @@ const Footer = () => {
 
         <div className="flex gap-5">
           <div className="text-sm mt-2">Certified by: </div>
-          <div
-            className="h-10 w-10 border-2 bg-cover bg-center rounded-md"
-            style={{ backgroundImage: `url(${nanta})` }}
-          ></div>
+          <img src={nanta} alt="nanta" className="h-10 w-10" />
           <div
             className="h-10 w-10 bg-cover bg-center rounded-md"
             style={{ backgroundImage: `url(${ntdc})` }}
           ></div>
+
+          
         </div>
       </div>
     </div>
